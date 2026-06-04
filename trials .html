@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Испытания — Стажёр ужасов</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <div class="logo">
+                    <h1>Стажёр ужасов</h1>
+                    <p>Забери свою душу... если сможешь</p>
+                </div>
+                <button class="burger-menu" id="burgerBtn">☰</button>
+                <nav class="nav-menu" id="navMenu">
+                    <ul>
+                        <li><a href="index.html">Главная</a></li>
+                        <li><a href="characters.html">Персонажи</a></li>
+                        <li><a href="trials.html">Испытания</a></li>
+                        <li><a href="index.html#project">О проекте</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="trials-page">
+            <div class="container">
+                <h2>Интерактивная карта испытаний</h2>
+                <p class="section-desc">Нажми на любое испытание, чтобы узнать подробности</p>
+                
+                <!-- Раздел 1: Инстансы -->
+                <div class="trials-section">
+                    <h3 class="trials-section__title">🏛️ Инстансы (Смертельные подземелья)</h3>
+                    <div class="trials-map" id="instancesMap">
+                        <!-- Инстансы добавятся через JavaScript -->
+                    </div>
+                </div>
+
+                <!-- Раздел 2: Ивенты от Системы -->
+                <div class="trials-section">
+                    <h3 class="trials-section__title">⚡ Ивенты от Системы</h3>
+                    <div class="trials-map" id="eventsMap">
+                        <!-- Ивенты добавятся через JavaScript -->
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>Фан-сайт по мотивам ранобэ «Стажёр ужасов / 惊悚练习生»</p>
+            <p>Неофициальный проект, созданный в учебных целях</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
